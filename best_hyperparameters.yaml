@@ -1,0 +1,22 @@
+# Best Hyperparameters from Trial _tune_746a1_00003
+# mAP50: 0.952 | mAP50-95: 0.692
+
+optimizer: AdamW
+lr0: 0.0037689
+lrf: 0.0298179
+momentum: 0.9327
+weight_decay: 0.0005361
+warmup_epochs: 3.0
+box: 10.0557
+cls: 0.713541
+dfl: 1.54733
+degrees: -3.25
+translate: 0.154178
+scale: 0.512371
+hsv_h: 0.00636
+hsv_s: 0.808542
+hsv_v: 0.36068
+mosaic: 0.912162
+mixup: 0.144776
+fliplr: 0.5
+flipud: 0.0697

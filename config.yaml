@@ -1,0 +1,31 @@
+project:
+  name: "Glove_Detection_Cleanup"
+  
+classes:
+  0: "gloved"
+  1: "not-gloved"
+
+paths:
+  # Where your messy data lives now
+  raw_images: "data/train/images"
+  raw_labels: "data/train/labels"
+  
+  # Where the script will move 'valid' data to be manually checked
+  interim_images: "data_cleaning/01_interim/images"
+  interim_labels: "data_cleaning/01_interim/labels"
+  
+  # Where 'corrupt' data (no label, empty file) goes
+  quarantine: "data_cleaning/quarantine"
+  
+  # The final clean dataset destination
+  golden_images: "data_cleaning/02_golden/images"
+  golden_labels: "data_cleaning/02_golden/labels"
+
+params:
+  swap_classes: false  # Set to True if you need to run the logic from label_swap_script.py
+
+# config.yaml
+visualization:
+  box_thickness: 1      # Thicker lines (default was 2)
+  font_scale: 0.6       # Larger text (default was 0.6)
+  text_thickness: 1     # Thicker text (default was 2)
