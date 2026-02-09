@@ -1,0 +1,49 @@
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+# Common names for virtual envs
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE Settings (VS Code, JetBrains) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Environment Variables (Security) ---
+# Never upload API keys!
+.env
+.env.local
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
