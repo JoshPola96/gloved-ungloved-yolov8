@@ -4,6 +4,14 @@
 >
 > **Committed on purpose:** trained weights and run artifacts under `runs/`, plus the label-correction log, are included so results can be reproduced and the model reused without a retraining run.
 
+> [!NOTE]
+> **Built 2025. The ecosystem has moved since.**
+> Dependencies here are unpinned, so a clean `pip install` today resolves to
+> versions that did not exist when this was written and pandas 3.0, numpy 2.5 plus major releases of torch, ultralytics and transformers have all landed since. Expect install or
+> runtime breakage on a fresh environment. What is on offer is the engineering
+> approach and the decisions behind it, not a guaranteed-green build.
+> Happy to bring it current if that would be useful — just ask.
+
 This project implements an end-to-end computer vision pipeline for detecting **Gloved** vs. **Ungloved** hands. It moves beyond simple model training by including a robust set of data engineering tools—automated sanitization, AI-assisted label correction (using CLIP and Pose estimation), and a custom Streamlit GUI for manual review.
 
 While the final model achieves **high test accuracy**, the pipeline is designed to balance this precision with reasonable real-time inference speeds for production environments.
