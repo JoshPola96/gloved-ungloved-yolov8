@@ -1,5 +1,9 @@
 # 🧤 Gloved vs. Ungloved Hand Detection (YOLOv8)
 
+> **Scope** · Timeboxed technical assessment (multi-day). Built to a brief under a fixed clock — scope decisions were deliberate.
+>
+> **Committed on purpose:** trained weights and run artifacts under `runs/`, plus the label-correction log, are included so results can be reproduced and the model reused without a retraining run.
+
 This project implements an end-to-end computer vision pipeline for detecting **Gloved** vs. **Ungloved** hands. It moves beyond simple model training by including a robust set of data engineering tools—automated sanitization, AI-assisted label correction (using CLIP and Pose estimation), and a custom Streamlit GUI for manual review.
 
 While the final model achieves **high test accuracy**, the pipeline is designed to balance this precision with reasonable real-time inference speeds for production environments.
