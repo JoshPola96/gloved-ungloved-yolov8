@@ -1,7 +1,3 @@
-Here is a comprehensive, production-ready `README.md` tailored specifically to your "Glove/Ungloved" detection project. It incorporates your custom data cleaning, ensemble validation, and human-in-the-loop labeling tools into a cohesive workflow.
-
----
-
 # 🧤 Gloved vs. Ungloved Hand Detection (YOLOv8)
 
 This project implements an end-to-end computer vision pipeline for detecting **Gloved** vs. **Ungloved** hands. It moves beyond simple model training by including a robust set of data engineering tools—automated sanitization, AI-assisted label correction (using CLIP and Pose estimation), and a custom Streamlit GUI for manual review.
