@@ -1,3 +1,4 @@
+# .gitignore
 # --- Python General ---
 __pycache__/
 *.py[cod]
@@ -47,3 +48,8 @@ venv.bak/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+yolo*.pt
+*.cache
